@@ -32,7 +32,6 @@ nav{
     padding: 1mm;
 }
 
-
 nav .navbar{
     width: 90%;
     margin: auto;
@@ -46,11 +45,13 @@ nav .navbar{
 nav .navbar .logo a{
     font-size: 40px;
     font-weight: 500;
-    /* color: var(--primary-color); */
+    color: var(--primary-color);
 }
 
 nav .navbar .menu{
-    display: flex;
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav .navbar .menu li{
