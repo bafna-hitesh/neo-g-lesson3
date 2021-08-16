@@ -431,11 +431,11 @@ h3{
     flex-direction: column;
     align-items: center;
     background-color: #F0F8FF;
-    
+    margin: auto;
 }
 .contact-section .section-title{
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
     color: var(--primary-color);
     text-decoration: underline;
 }
@@ -443,7 +443,7 @@ h3{
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-    padding: 10px;
+    padding: 10px ;
     border-radius: 10px;
     width: 100%;
 }
@@ -451,6 +451,8 @@ h3{
     display: flex;
     padding-left: 1rem;
     border: 1.5px solid var(--black);
+    width: 100%;
+    resize: none;
 }
 .contact-section .button{
     margin: 14px ;
@@ -488,8 +490,8 @@ h3{
 li{
     margin: 11rem 2rem;
 }
-.article-item{
-    margin: 0 3rem;
+.blg-p{
+    width: 40%;
 }
 .blg-title{
     padding: 5px;
@@ -522,40 +524,64 @@ li{
 /* media querry */
 
 @media (max-width: 500px){
-    .navbar{
-    width: 50%;
-    margin: auto;
-    padding: 1rem;
-    display:flex;
+.navbar{
+    width: 100%;
+    padding: 1.2rem;
     flex-direction: column;
     justify-content: center;
-    }
-    .footer{
-        bottom: 0;
-        max-width: 500%;
-        width: 100%;
-        display: flex;
-        margin-left: 0; 
-        justify-content: center;
-        flex-direction: column;
-    }
+    overflow: hidden;
+}
+
+.navbar .menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.home #projects{
+    padding: 20rem 0;
+}
+#projects{
+    padding: 5rem 0;
+}
+
+.footer{
+    bottom: 0;
+    max-width: 500%;
+    width: auto;
+    display: flex;
+    margin-left: 0; 
+    justify-content: center;
+    flex-direction: column;
+}
     .blog-section{
         display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: -3rem;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        width: auto;
+        margin-left: 1rem;
         justify-content: center;
     }
     .blg-p{
         width: 130%;
     }
+    .blg-title{
+        width: 150%;
+    }
     .list-first{
         display: flex;
-        margin-bottom: -7rem;
+        margin-bottom: 0;
     }
     .about .about-details p{
         /* margin-top: 1rem;
         color:white; */
         width: 90%;
+    }
+    .contact-section .section-title, contact-form{
+        margin-top: 8rem ;
+        margin-right: auto;
+        margin-left:auto;
+    }
+    .contact-form{
+        margin-right: auto;
+        margin-left:auto;
     }
 }
