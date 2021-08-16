@@ -543,7 +543,13 @@ li{
 #projects{
     padding: 5rem 0;
 }
-
+.home{
+    background-image:url("working image.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    
+}
 .footer{
     bottom: 0;
     max-width: 500%;
