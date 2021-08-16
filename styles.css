@@ -259,7 +259,7 @@ h3{
     margin-top: 20px;
     text-align: center ;
     background: transparent;
-    border: 1px solid var(--blue);
+    /* border: 1px solid var(--blue); */
     box-shadow: -5px -5px 10px #295e74;
     
 }
@@ -297,7 +297,7 @@ h3{
 .single-stack {
     margin-right: 15px;
 }
-
+ 
 
 /* Project Section */
 
@@ -524,7 +524,7 @@ li{
 
 /* media querry */
 
-@media (max-width: 500px){
+@media only screen and (max-width: 650px){
 .navbar{
     width: 100%;
     padding: 1.2rem;
@@ -585,4 +585,9 @@ li{
         margin-right: auto;
         margin-left:auto;
     }
+
+    .single-stack{
+        width: 100%;
+    }
+        
 }
