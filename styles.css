@@ -33,13 +33,11 @@ nav{
 }
 
 nav .navbar{
-    width: 90%;
-    margin: auto;
+    width: 100%;
     padding: 1rem;
     display:flex;
     align-items: center;
-    justify-content: space-between;
-   
+    justify-content: space-between;   
 }
 
 nav .navbar .logo a{
@@ -525,14 +523,9 @@ li{
 /* media querry */
 
 @media only screen and (max-width: 650px){
-.navbar{
-    width: 100%;
-    padding: 1.1rem;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
+nav .navbar{
+    padding: 10px;
 }
-
 .navbar .menu {
     display: flex;
     flex-wrap: wrap;
