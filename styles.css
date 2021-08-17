@@ -538,7 +538,7 @@ li{
     flex-wrap: wrap;
 }
 .navbar .media-icons a{
-    font-size: 1.2em;
+    display: none;
 }
 .home #projects{
     padding: 20rem 0;
