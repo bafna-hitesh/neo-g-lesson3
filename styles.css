@@ -11,6 +11,10 @@
     font-family: var(--primary-font);
 }
 
+html{
+    height:100%;
+}
+
 :root{
     --primary-font: "poppins", sans-serif;
     --primary-color: #4070f4;
@@ -554,6 +558,7 @@ nav .navbar{
     margin-left: 0; 
     justify-content: center;
     flex-direction: column;
+    margin-top: auto;
 }
     .blog-section{
         display: flex;
