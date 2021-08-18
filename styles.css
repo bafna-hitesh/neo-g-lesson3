@@ -59,8 +59,9 @@ nav .navbar .menu li{
 
 .navbar .menu li a{
     font-size: 18px;
-    font-size: 500;
     color: white;
+    /* background-color: orange; */
+    margin: 0 8px;
 }
 
 .navbar .menu li a:hover{
@@ -257,9 +258,8 @@ h3{
     margin-top: 20px;
     text-align: center ;
     background: transparent;
-    /* border: 1px solid var(--blue); */
+    border: 1px solid var(--blue);
     box-shadow: -5px -5px 10px #295e74;
-    
 }
 
 .single-stack:hover {
