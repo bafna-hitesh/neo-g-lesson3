@@ -481,15 +481,6 @@ h3{
     border-radius: 10px;
     transition: all 0.4 ease;
 }
-/* display: flex;
-padding: 12px 25px;
-margin: 4rem auto;
-background-color: var(--blue);
-border: none;
-color: var(--white);
-border-radius: 30px;
-cursor: pointer;
-transition: all 0.3s ease-in 0s; */
 
 .contact-section .button button:hover{
     color: #4070f4;
