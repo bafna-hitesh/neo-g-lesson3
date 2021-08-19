@@ -472,15 +472,24 @@ h3{
     outline: none;
     color:white;
     background: #4070f4;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 4px 8px;
+    font-size: 15px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+    padding: 12px 25px;
     margin-bottom: 2rem;
-    border: 2px solid transparent;
+    border: 1px solid var(--blue);
     border-radius: 10px;
     transition: all 0.4 ease;
 }
-
+/* display: flex;
+padding: 12px 25px;
+margin: 4rem auto;
+background-color: var(--blue);
+border: none;
+color: var(--white);
+border-radius: 30px;
+cursor: pointer;
+transition: all 0.3s ease-in 0s; */
 
 .contact-section .button button:hover{
     color: #4070f4;
