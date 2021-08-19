@@ -48,9 +48,11 @@
                 <button>Hire me</button>
             </div>
         </div>
-        <div id="output"></div>
         <div class="animation">
             <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_bp1bwvhv.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div>
+        <div id="output">
+            <h2>Thank You! We will contact you shortly…</h2>
         </div>
     </section>
     <footer class="footer" id="footer">
@@ -69,10 +71,13 @@
     const loadingAnime = document.querySelector(".animation");
     btn.addEventListener("click", (e) =>{
         container.style.display = "none";
+        output.style.display = 'block';
         loadingAnime.style.display = 'block';
+        
         setTimeout( () =>{
             container.style.display = "block";
             loadingAnime.style.display = 'none';
+            output.style.display = 'none';
         },4000);
        
     })
