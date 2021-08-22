@@ -312,6 +312,7 @@ h3{
 #projects {
     padding: 1rem;
     width: 100%;
+    
 }
 
 .bg-img{
@@ -319,7 +320,9 @@ h3{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100vh;
+    
 }
 
 .container-projects {
